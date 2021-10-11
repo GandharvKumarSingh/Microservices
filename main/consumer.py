@@ -3,7 +3,7 @@ from pika import connection
 from pika import channel
 from main import Product, db
 
-param = pika.URLParameters('amqps://shdbbbdo:aW4v9DxoSwBP0AHcPKp9ztNgS4D0nwfq@puffin.rmq2.cloudamqp.com/shdbbbdo')
+param = pika.URLParameters()
 
 connection = pika.BlockingConnection(param)
 
